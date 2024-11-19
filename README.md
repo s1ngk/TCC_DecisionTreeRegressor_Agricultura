@@ -1,3 +1,3 @@
 # TCC_DecisionTreeRegressor_Agricultura
 
-@s1ngk @theraulsena @lucasoriental
+[@lucasoriental](https://github.com/lucasoriental) [@theraulsena](https://github.com/Theraulsena) [@s1ngk](https://github.com/s1ngk)
