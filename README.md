@@ -18,8 +18,16 @@ Este trabalho busca explorar o uso do Decision Tree Regressor na previsão da pr
 
 # Conclusão
 
-Este trabalho apresentou a aplicação de um modelo de regressão baseado em árvore de decisão (DecisionTreeRegressor) para a previsão de produtividade agrícola, utilizando um dataset sintético disponibilizado na plataforma Kaggle. O estudo abordou desde a análise e pré-processamento dos dados até a avaliação e otimização do modelo, seguindo um fluxo estruturado que incluiu: criação de variáveis dummies, remoção de outliers, amostragem estratificada, ajuste de hiperparâmetros via GridSearchCV, e validação cruzada. 
+O estudo abordou desde a análise e pré-processamento dos dados até a avaliação e otimização do modelo, seguindo um fluxo estruturado que incluiu: criação de variáveis dummies, remoção de outliers, amostragem estratificada, ajuste de hiperparâmetros via GridSearchCV, e validação cruzada. 
 
 Os resultados obtidos demonstraram que o modelo conseguiu produzir previsões com desempenho aceitável na maioria dos casos, evidenciado por uma média da margem de erro de 11,22% e uma diferença média de 0,0013 pontos entre os valores reais e previstos. No entanto, também foi observado que erros mais elevados ocorreram em casos isolados, sobretudo devido às limitações impostas pela natureza sintética do dataset, pela ausência de correlações reais e pela complexidade intrínseca do problema, como a interação de múltiplos fatores climáticos, ambientais e de manejo agrícola. 
 
 Apesar das limitações, o estudo alcançou seu objetivo principal de implementar, avaliar e discutir o desempenho de um modelo preditivo para produtividade agrícola, fornecendo uma base inicial para trabalhos futuros nessa área. 
+
+## Sugestões para Trabalhos Futuros
+
+A continuação deste trabalho pode explorar diversas direções para aprimorar os resultados obtidos e expandir a compreensão sobre a previsão de produtividade agrícola. Primeiramente, seria interessante realizar uma análise mais profunda sobre a qualidade dos dados sintéticos utilizados, considerando a possibilidade de gerar um conjunto de dados mais representativo e realista, que possa oferecer uma base mais sólida para o treinamento dos modelos. 
+
+Outra área que pode ser abordada é a experimentação com modelos de aprendizado de máquina mais complexos, como redes neurais ou modelos de ensemble, que possuem maior capacidade de capturar interações não lineares e padrões complexos nos dados. Além disso, seria relevante integrar dados ambientais e climáticos reais, como informações sobre temperatura, umidade e precipitação, para melhorar ainda mais a precisão das previsões. 
+
+Também é importante explorar o impacto de diferentes abordagens de balanceamento de dados, a fim de melhorar a performance do modelo em cenários menos representados. Por fim, uma possível linha de pesquisa seria aplicar técnicas de aprendizado profundo (deep learning) para explorar novas maneiras de modelar as relações entre as variáveis e aumentar a robustez da previsão. 
